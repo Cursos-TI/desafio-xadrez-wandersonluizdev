@@ -5,6 +5,7 @@ int main() {
 
 
     int i; // Variável 
+int movimentocompleto = 1;
 
     // Torre com For
     printf("Movimento da TORRE:\n");
@@ -29,6 +30,15 @@ int main() {
         printf("Esquerda\n");
         i++;
     } while (i <= 8);
+
+// Cavalo se Move em L 
+printf("Movimento do CAVALO:\n");
+while (movimentocompleto--)
+for (int i = 0; i < 2; i++) {
+printf("Cima \n");
+}
+printf("Direita \n");
+
 
     return 0;
 }
